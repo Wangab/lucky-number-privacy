@@ -60,6 +60,22 @@
       border-radius: 16px;
       background: rgba(18, 25, 43, .78);
     }
+    .lang-nav {
+      display: flex;
+      gap: 10px;
+      margin-top: 22px;
+    }
+    .lang-nav a {
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      text-decoration: none;
+    }
+    .language {
+      margin-top: 64px;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+    }
     footer { margin-top: 52px; padding-top: 24px; border-top: 1px solid var(--line); color: var(--muted); }
   </style>
 </head>
@@ -67,10 +83,16 @@
   <main>
     <header>
       <div class="mark" aria-hidden="true">財</div>
-      <h1>財運碼<br>隱私權政策</h1>
-      <p class="meta">生效日期：2026 年 11 月 3 日</p>
+      <h1>財運碼<br>隱私權政策 · Privacy Policy</h1>
+      <p class="meta">生效日期 Effective date：2026 年 11 月 3 日 / November 3, 2026</p>
+      <nav class="lang-nav" aria-label="Language">
+        <a href="#zh">中文</a>
+        <a href="#en">English</a>
+      </nav>
     </header>
 
+    <section id="zh" lang="zh-Hant">
+    <h2>中文</h2>
     <p>GETT TECH DEVELOPMENT PTE. LTD.（以下稱「我們」）提供「財運碼」Android 應用程式。本政策說明財運碼如何處理資料，以及你可以如何聯絡我們。</p>
 
     <h2>我們處理的資料</h2>
@@ -98,6 +120,37 @@
       <strong>GETT TECH DEVELOPMENT PTE. LTD.</strong><br>
       電子郵件：<a href="mailto:wangab918@gmail.com">wangab918@gmail.com</a>
     </div>
+    </section>
+
+    <section id="en" class="language" lang="en">
+    <h2>English</h2>
+    <p>GETT TECH DEVELOPMENT PTE. LTD. (“we,” “us,” or “our”) provides the <strong>Lucky Numbers</strong> (財運碼) Android application. This Privacy Policy explains how the app handles information and how you can contact us.</p>
+
+    <h3>Birth date and number-generation information</h3>
+    <p>The birth date, Chinese zodiac selection, selected lottery format, and generated numbers are processed only on your device. We do not transmit, collect, or store this information on our servers, and the app does not create a user account.</p>
+
+    <h3>Network access and third-party SDKs</h3>
+    <p>The first release of Lucky Numbers does not include advertising SDKs or third-party analytics SDKs. It does not send your birth date, generated numbers, device identifiers, advertising interactions, or usage history to us or to third parties.</p>
+    <p>If you choose to open the privacy policy link, your browser will connect to this policy page. That connection is handled by your browser and the website hosting provider under their respective policies.</p>
+
+    <h3>Retention</h3>
+    <p>Birth date and selection data remain only in local storage on your device and are removed by the operating system when you uninstall the app. We do not maintain an advertising, usage, or behavioral-data database.</p>
+
+    <h3>Children's privacy</h3>
+    <p>Lucky Numbers is not directed to children under 13. If you believe a child has provided personal information to us, please contact us so that we can assist.</p>
+
+    <h3>Security</h3>
+    <p>We use reasonable technical and organizational measures to protect information. However, no method of electronic transmission or storage can be guaranteed to be completely secure.</p>
+
+    <h3>Changes to this policy</h3>
+    <p>We may update this policy when app features, services, or legal requirements change. Updated versions will be published on this page with a revised effective date.</p>
+
+    <h3>Contact us</h3>
+    <div class="notice">
+      <strong>GETT TECH DEVELOPMENT PTE. LTD.</strong><br>
+      Email: <a href="mailto:wangab918@gmail.com">wangab918@gmail.com</a>
+    </div>
+    </section>
   </main>
   <footer>
     <main style="padding:0;">© 2026 GETT TECH DEVELOPMENT PTE. LTD.</main>
